@@ -1,0 +1,211 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse-Write.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse-Read.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse-Edit.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse-Bash.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse-Task.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "WebFetch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse-WebFetch.mp3"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreToolUse.mp3"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse-Write.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse-Read.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse-Edit.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse-Bash.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse-Task.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "WebFetch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse-WebFetch.mp3"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PostToolUse.mp3"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/Notification.mp3"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/UserPromptSubmit.mp3"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/Stop.mp3"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/SubagentStop.mp3"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/PreCompact.mp3"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/SessionStart-resume.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/SessionStart-clear.mp3"
+          }
+        ]
+      },
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/blarger/.claude/play_audio.sh /home/blarger/.claude/mp3_voices/SessionStart-startup.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}
